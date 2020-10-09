@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Вело СТО "Привоз"</title>
+    <link   rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+</head>
+<body>
+<header></header>
+
+<div class="inputs-wrapper">
+<div class="input-repair-wrapper">
+    <input type="text" class="bicycle-input" placeholder="Велосипед">
+    <input type="text" class="tofix-input" placeholder="Неисправности">
+    <input type="text" class="phone-input" placeholder="Номер телефона">
+    <input type="text" class="price-input" placeholder="Стоимость, BYN">
+    <button class ="repair-queue-add-button">Добавить</button>
+</div>
+<div class="input-solditems-wrapper">
+    <input type="text" class="sold-item-input" placeholder="Что продано?">
+    <input type="text"  class="sold-item-price-input" placeholder="Цена, BYN">
+    <button class="sold-queue-add-button">Добавить</button>
+</div>
+</div>
+
+<div class="queue-wrapper">
+    <ol class="repair-queue">
+    </ol>
+    <ol class="solditems-queue">
+    </ol>
+</div>
+<div class="total-cash">Всего выручка: 0 BYN</div>
+<!--<button id="download">Скачать</button>-->
+<script src="index.js"></script>
+</body>
+</html>

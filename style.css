@@ -1,0 +1,41 @@
+body {
+    background-image: url("src/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+    font-size: 3em;
+}
+.inputs-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.queue-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 39em;
+}
+.repair-queue li{
+    color:red;
+    word-wrap: break-word;
+}
+.repair-queue, .solditems-queue {
+    width: 30em;
+    overflow:auto;
+}
+
+.solditems-queue li {
+    color: darkgreen;
+}
+li.order-done{
+    color: darkgreen;
+}
+
+.sold-queue-add-button {
+
+}
